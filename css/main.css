@@ -1,0 +1,32 @@
+@charset "UTF=8";
+
+
+#container {
+	width: 48%;
+	display: inline-block;
+}
+
+#container img {
+	display: block;
+	width: 100%;
+}
+
+#container li:hover {
+background-color: lightblue;
+width: 150px;
+height: 150px;
+
+}
+
+
+#container {
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#container:hover {
+    transform: scale(1.2);
+}
+
